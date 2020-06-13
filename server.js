@@ -28,11 +28,11 @@ var server = http.createServer(function(request, response){
     const suffix = filePath.substring(index)
 
     const fileTypes = {
-        '.html': 'text/html',
-        '.css' : 'text/css',
-        '.js'  : 'text/javascript',
-        '.png' : 'image/png',
-        '.jpg' : 'image/jpeg',
+        '.html' : 'text/html',
+        '.css'  : 'text/css',
+        '.js'   : 'text/javascript',
+        '.png'  : 'image/png',
+        '.jpg'  : 'image/jpeg',
         '.jpeg' : 'image/jpeg'
     }
 
