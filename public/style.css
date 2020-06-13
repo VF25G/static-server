@@ -1,0 +1,12 @@
+body{
+    color : blue;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+}
+img{
+    max-width: 940px;
+    max-height: 100%;
+}
